@@ -11,7 +11,7 @@ Estudio y búsqueda de uno o varios servicios web (API Restful). Si se va a esco
 ## Entrega
 En redmine entrega los siguientes puntos:
 
-La/s URL/s de la documentación del servicio web (o servicios) que vais a utilizar.
-La ejecución y salida de 3 peticiones a la API principal (si eliges dos API, solo a una de ella) utilizando curl. Estas peticiones se harán sobre URL con parámetros.
-3 programas python que muestren información de las consultas a la API (se pueden usar las mismas consultas que has utilizado en el punto anterior) utilizando la librería requests. 
-Una descripción de lo que va a hacer tu aplicación web utilizando estos servicios web.
+* La/s URL/s de la documentación del servicio web (o servicios) que vais a utilizar.
+* La ejecución y salida de 3 peticiones a la API principal (si eliges dos API, solo a una de ella) utilizando curl. Estas peticiones se harán sobre URL con parámetros.
+* 3 programas python que muestren información de las consultas a la API (se pueden usar las mismas consultas que has utilizado en el punto anterior) utilizando la librería requests. 
+* Una descripción de lo que va a hacer tu aplicación web utilizando estos servicios web.
