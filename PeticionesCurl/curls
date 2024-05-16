@@ -1,0 +1,13 @@
+# Consulta 1
+# Este curl va a realizar una busqueda mediante la canción "Rolling in the Deep" de Adele
+curl -X GET "https://api.spotify.com/v1/search?q=Rolling%20in%20the%20Deep&type=track" -H "Authorization: Bearer BQDHpU06ywcdHD1gaak9YORUCCGBYROgdTYHYQfI7tX3TG6jnp6Jg_uM5U92YohdTPDWTKsFZMc4AefUKTmRtd8ClvPiX3qlFWShND7skapdoC4ShZk"
+
+
+# Consulta 2
+# Este curl va a realizar una busqueda mediante los álbumes de Eminem
+curl -X GET "https://api.spotify.com/v1/search?q=Eminem&type=artist" -H "Authorization: Bearer BQDHpU06ywcdHD1gaak9YORUCCGBYROgdTYHYQfI7tX3TG6jnp6Jg_uM5U92YohdTPDWTKsFZMc4AefUKTmRtd8ClvPiX3qlFWShND7skapdoC4ShZk"
+
+
+# Consulta 3
+# Este curl va a realizar una búsqueda de las canciones del álbum "21" de Adele
+curl -X GET "https://api.spotify.com/v1/search?q=21&type=album" -H "Authorization: Bearer BQDHpU06ywcdHD1gaak9YORUCCGBYROgdTYHYQfI7tX3TG6jnp6Jg_uM5U92YohdTPDWTKsFZMc4AefUKTmRtd8ClvPiX3qlFWShND7skapdoC4ShZk"
